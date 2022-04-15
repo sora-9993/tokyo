@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image:url(../神楽坂/IMG_0849.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5px;
+}
+
+.top-contents {
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    color:azure;
+}
+
+.top-name{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.top-name h1 {
+    font-size: 40px;
+}
+
+.top-name .btn {
+    display: inline-block;
+    opacity: 0,8;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+.container {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(-135deg, #E4A972, #9941D8);
+}
+
+.container-item1 {
+    width: 70%;
+    text-align: center;
+}
+
+
+.container-item1 h2 {
+    border-bottom: 1px solid black;
+}
+
+.container-item1 p {
+    font-family:serif;
+    font-size: 20px;
+}
+
+.container img {
+    width: 400px;
+}
+
+.container-item2 {
+    margin-left: 100px;
+}
+
+.container-item2 ul {
+    list-style-type: none;
+}
+
+.container-item2 li {
+    border-bottom:1px dotted black;
+    font-size: 20px;
+}
+
+.middle-part {
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border-right: 1px solid black;
+    background-color:coral;
+    margin-top: 5px;
+}
+
+.middle-item h2 {
+    text-align: center;
+}
+
+.middle-items {
+    float: left;
+    padding: 10px;
+    table-layout:fixed
+}
+
+.middle-items p {
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.middle-item img {
+    display: flex;
+    width: 200px;
+    margin-left: 140px;
+}
+
+footer {
+    display: inline-block;
+    background-image:url(../神楽坂/IMG_1898.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.footer-item h2 {
+    text-align: center;
+    color:antiquewhite;
+}
+
