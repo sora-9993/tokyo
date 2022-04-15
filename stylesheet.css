@@ -1,9 +1,9 @@
-* {
+ {
     box-sizing: border-box;
 }
 
 header {
-    background-image:url(https://github.com/sora-9993/tokyo/blob/main/IMG_0849.jpg?raw=true);
+    background-image:url(../神楽坂/IMG_0849.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -110,7 +110,7 @@ header {
 
 footer {
     display: inline-block;
-    background-image:url(https://github.com/sora-9993/tokyo/blob/main/IMG_1898.jpg?raw=true);
+    background-image:url(../神楽坂/IMG_1898.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -122,5 +122,4 @@ footer {
     text-align: center;
     color:antiquewhite;
 }
-
 
